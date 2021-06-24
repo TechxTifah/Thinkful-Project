@@ -1,0 +1,53 @@
+body {
+
+  background-color: #F5C4B9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body p {
+  text-align: center;
+  margin-bottom: auto;
+}
+
+body h3 {
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+
+  padding: 25px;
+  margin-top: auto;
+  font-style: oblique;
+  text-align: center;
+  color: #ffffff;
+  font-size: 75px;
+  height: 15px
+
+}
+
+main {
+  text-align: left;
+}
+/* Customized the horizontal breaks to be dotted instead of a solid line */
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 25px
+  width: 10%
+}
+
+
+/*Unvisited Link*/
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: #500e78;
+}
